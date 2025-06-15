@@ -1,0 +1,86 @@
+[
+  {
+    "role": "Frontend Developer",
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Redux", "REST APIs"]
+  },
+  {
+    "role": "Backend Developer",
+    "skills": ["Node.js", "Express", "MongoDB", "SQL", "Authentication", "REST APIs"]
+  },
+  {
+    "role": "Data Scientist",
+    "skills": ["Python", "Pandas", "NumPy", "Machine Learning", "Scikit-learn", "Data Visualization"]
+  },
+  {
+    "role": "Blockchain Developer",
+    "skills": ["Solidity", "Smart Contracts", "Ethereum", "Web3.js", "Cryptography", "Truffle"]
+  },
+  {
+    "role": "Mobile App Developer (Android)",
+    "skills": ["Java", "Kotlin", "Android SDK", "Android Studio", "Firebase", "REST APIs"]
+  },
+  {
+    "role": "Mobile App Developer (iOS)",
+    "skills": ["Swift", "Objective-C", "Xcode", "Cocoa Touch", "UIKit", "REST APIs"]
+  },
+  {
+    "role": "DevOps Engineer",
+    "skills": ["AWS", "Docker", "Kubernetes", "CI/CD", "Terraform", "Linux"]
+  },
+  {
+    "role": "Software Tester",
+    "skills": ["Manual Testing", "Automation Testing", "Selenium", "JUnit", "TestNG", "Bug Tracking"]
+  },
+  {
+    "role": "UI/UX Designer",
+    "skills": ["Figma", "Sketch", "Adobe XD", "Wireframing", "Prototyping", "User Research"]
+  },
+  {
+    "role": "Database Administrator",
+    "skills": ["SQL", "MySQL", "PostgreSQL", "Database Design", "Performance Tuning", "Backup and Recovery"]
+  },
+  {
+    "role": "Full Stack Developer",
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB", "SQL", "REST APIs"]
+  },
+  {
+    "role": "Machine Learning Engineer",
+    "skills": ["Python", "TensorFlow", "PyTorch", "Natural Language Processing (NLP)", "Computer Vision", "Model Deployment"]
+  },
+  {
+    "role": "Cybersecurity Analyst",
+    "skills": ["Network Security", "Penetration Testing", "Vulnerability Assessment", "Incident Response", "Security Tools"]
+  },
+  {
+    "role": "Cloud Solutions Architect",
+    "skills": ["AWS", "Azure", "Google Cloud Platform", "Cloud Architecture", "Microservices", "Serverless Computing"]
+  },
+  {
+    "role": "Game Developer",
+    "skills": ["Unity", "Unreal Engine", "C#", "Game Design", "3D Modeling", "Animation"]
+  },
+  {
+    "role": "Systems Analyst",
+    "skills": ["Requirements Gathering", "System Design", "Business Analysis", "Documentation", "Stakeholder Management"]
+  },
+  {
+    "role": "Network Engineer",
+    "skills": ["TCP/IP", "Routing and Switching", "Network Security", "Firewall Configuration", "VPNs", "Network Monitoring"]
+  },
+  {
+    "role": "Technical Writer",
+    "skills": ["Documentation", "Content Creation", "API Documentation", "User Manuals", "Technical Specifications", "Editing"]
+  },
+  {
+    "role": "SEO Specialist",
+    "skills": ["Keyword Research", "On-Page SEO", "Off-Page SEO", "Analytics Tools", "Content Optimization", "Link Building"]
+  },
+  {
+    "role": "Product Manager",
+    "skills": ["Product Strategy", "Market Research", "Roadmap Planning", "Agile Methodologies", "Stakeholder Communication", "User Stories"]
+  },
+  {
+    "role": "Business Analyst",
+    "skills": ["Data Analysis", "Requirements Gathering", "Stakeholder Management", "Process Improvement", "Documentation", "Agile Methodologies"]
+  }
+]
