@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# 💼 Resume Analyzer & Blockchain Verifier
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A powerful web-based tool built with *React, **AI, and **Blockchain* that extracts skills from resumes and verifies job-role matches securely using smart contracts on the *Polygon Amoy testnet*.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 📄 Upload *single or multiple PDF resumes*
+- 🧠 AI-based *skill extraction*
+- 🧩 Smart matching with predefined *job roles*
+- ✅ *Blockchain verification* of resume-job match
+- 🔐 MetaMask wallet connection
+- 🌗 Light/Dark mode toggle
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
+## 🛠️ Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+| Tech             | Purpose                     
+|------------------|------------------------------|
+| React.js         | Frontend                     |
+| Tailwind CSS     | Styling                      |
+| Axios            | API Calls                    |
+| ethers.js        | Blockchain interaction       |
+| Express.js       | Backend (PDF parser & AI)    |
+| pdf-parse        | Extract text from resumes    |
+| MetaMask         | Wallet connection            |
+| Solidity         | Smart contract (Polygon)     |
 
-### `npm test`
+---------------------------------------------------
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧠 How It Works
 
-### `npm run build`
+1. User uploads one or more PDF resumes.
+2. Backend parses text from PDFs using pdf-parse.
+3. Skills are extracted using a custom AI-powered matching algorithm.
+4. Job role matching is performed using predefined jobRoles.json.
+5. Verified results are stored on the blockchain using verifyResume() function.
+6. Matched roles are displayed with verification status fetched from smart contract.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 💻 Local Development Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🔃 Clone the repo
 
-### `npm run eject`
+```bash
+git clone https://github.com/AyushAnchal-Dev/resume-analyzer-frontend.git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Install Dependencies:
+cd client
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+cd server
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+start Frontend  :
+cd client
+npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+start Backend :
+cd server
+node index.js
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🔐 Smart Contract Info
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+✅ Deployed on: Polygon Amoy Testnet
 
-### Code Splitting
+✅ Contract Address: 0x0aF2C6d6F3C41ef892A0b051F2D6e263bA2A6f1B
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+✅ Verified using MetaMask
 
-### Analyzing the Bundle Size
+------------------------
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+⚠️ Prerequisites
 
-### Making a Progressive Web App
+MetaMask installed and connected to Amoy Testnet
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Test MATIC tokens for transaction fees (available via Amoy faucet)
 
-### Advanced Configuration
+Node.js & npm installed
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+"# resume-analyzer-frontend" 
