@@ -18,7 +18,10 @@ function UploadForm({ account, setResults }) {
 
     setLoading(true);
     try {
-      const res = await axios.post('http://localhost:5000/analyze-multiple', formData);
+      const res = await axios.post(
+        'https://resume-analyzer-backend-grus.onrender.com/analyze-multiple',
+        formData
+      );
 
       if (res.data.success && res.data.results) {
         setResults(res.data.results);
@@ -27,7 +30,7 @@ function UploadForm({ account, setResults }) {
       }
     } catch (err) {
       console.error("❌ Analyze Error:", err);
-      alert("Internal Server Error");
+      alert("Server Error: Unable to analyze resume(s).");
     } finally {
       setLoading(false);
     }
@@ -45,7 +48,11 @@ function UploadForm({ account, setResults }) {
       <button
         onClick={handleAnalyze}
         disabled={loading}
-        className="px-6 py-2 bg-blue-600 hover:bg-blue-700 transition duration-200 text-white rounded shadow"
+        className={`px-6 py-2 rounded shadow transition duration-200 ${
+          loading
+            ? 'bg-blue-400 cursor-not-allowed'
+            : 'bg-blue-600 hover:bg-blue-700 text-white'
+        }`}
       >
         {loading ? 'Analyzing...' : 'Analyze Resume(s)'}
       </button>
