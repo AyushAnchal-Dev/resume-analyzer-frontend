@@ -85,10 +85,6 @@ Node.js & npm installed
 "# resume-analyzer-frontend" 
 
 
-## 🚀 Deployment Status
-
-[![Frontend - Live](https://img.shields.io/badge/Vercel-Frontend-brightgreen?style=flat&logo=vercel)](https://resume-analyzer-frontend.vercel.app)
-[![Backend - Live](https://img.shields.io/badge/Render-Backend-blue?style=flat&logo=render)](https://resume-analyzer-backend-grus.onrender.com)
 
 [9:10 AM, 6/16/2025] abhardwaj8507: ---
 
@@ -97,7 +93,7 @@ Node.js & npm installed
 🔹 Frontend: resume-analyzer-frontend.vercel.app
 
 🔹 Backend: resume-analyzer-backend-grus.onrender.com
-[9:10 AM, 6/16/2025] abhardwaj8507: 🙌 Author
+
 
 > Built with 💙 by Ayush Anchal
 Powered by AI + Blockchain
